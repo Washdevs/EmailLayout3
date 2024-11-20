@@ -7,45 +7,86 @@
   <title>Email com Imagem</title>
 </head>
 
-<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #ffffff">
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #ffffff;">
 
-  <!-- Tabela Principal -->
-  <table width="600" cellpadding="0" cellspacing="0" border="0" align="center"
-    style="background-color: #fdfdfd; height: 800px; border: 1px solid #0c0000; margin: 0 auto;">
+  <!-- Contêiner Principal -->
+  <div style="position: relative; width: 320px; margin: 0 auto;">
 
-    <!-- Parte Superior com Margem de 10px -->
-    <tr>
-      <td style="background-color: #eb1818; height: 20px;">
-      </td>
-    </tr>
+    <!-- Tabela Principal -->
+    <table width="320" cellpadding="0" cellspacing="0" border="0" align="center"
+      style="background-color: #f0f0f0; margin: 0 auto; height: 600px; position: relative; z-index: 1;">
 
-    <!-- Imagem Principal -->
-    <tr>
-      <td style="text-align: center;">
-        <img src="mulhernocelular.png" alt="Descrição da Imagem"
-          style="display: block; max-width: 20%; width: 150px; height: auto; margin: 0 auto; border-radius: 5px;">
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">
-        <img src="mulhernotablet.png" alt="Descrição da Imagem"
-          style="display: block; max-width: 20%; width: 250px; height: auto; margin: 0 auto; border-radius: 5px;">
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">
-        <img src="mulhernocelular.png" alt="Descrição da Imagem"
-          style="display: block; max-width: 20%; width: 150px; height: auto; margin: 0 auto; border-radius: 5px;">
-      </td>
-    </tr>
+      <!-- Parte Superior rosa -->
+      <tr>
+        <td colspan="2" style="background-color: #d62051; height: 20px;"></td>
+      </tr>
 
-    <!-- Rodapé -->
-    <tr>
-      <td style="background-color: #e91717; height: 20px; text-align: center;">
-      </td>
-    </tr>
+      <!-- Corpo da Tabela com Lado Esquerdo e Direito -->
+      <tr>
+        <!-- Lado Esquerdo -->
+        <td style="width: 60%; padding: 10px; text-align: left; vertical-align: top; border:  2px solid black;">
 
-  </table>
+          <!-- Texto Azul -->
+          <p style="font-size: 14px; color: #0056b3; font-weight: bold; z-index: 1;"> Atendimento rápido, resolutivo e
+            seguro encaixado em
+            seu
+            tempo e espaço!
+          </p>
+
+          <!-- Texto Rosa -->
+          <p style="font-size: 14px; color: #d62051; font-weight: bold; margin-top: 20px; z-index: 1;">
+            Quer ter acesso a um desconto exclusivo em sua primeira consulta?
+          </p>
+        </td>
+
+        <!-- Lado Direito com Imagens -->
+        <td style="width: 40%; text-align: right; vertical-align: top; padding: 0; position: static;">
+          <!-- Container das Imagens -->
+          <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 10px;">
+            <!-- Imagem 1 -->
+            <div style="width: 130px; height: 90px;">
+              <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/132.png" alt="Imagem 1"
+                style="width: 100%; height: 100%; border-radius: 0px; display: block;">
+            </div>
+            <!-- Imagem 2 -->
+            <div style="width: 200px; height: 150px; z-index: 1;">
+              <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/133.png" alt="Imagem 2"
+                style="width: 100%; height: 100%; border-radius: 0px; display: block; padding: 0;">
+            </div>
+            <!-- Imagem 3 -->
+            <div style="width: 170px; height: 130px;">
+              <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/134.jpg" alt="Imagem 3"
+                style="width: 100%; height: 100%; border-radius: 0px; display: block;">
+            </div>
+          </div>
+        </td>
+      </tr>
+
+
+
+      <!-- Rodapé rosa -->
+      <tr>
+        <td colspan="2" style="background-color: #d62051; height: 20px; text-align: center;"></td>
+      </tr>
+    </table>
+
+    <!-- Botões Sobrepostos -->
+    <div style="position: absolute; top: 35%; left: 10px; transform: translateY(-50%); z-index: 1;">
+      <div
+        style="margin-bottom: 10px; background: #d62051; color: white; padding: 3px 15px 3px 15px; border-radius: 25px; font-size: 13px; width: fit-content;">
+        Sem filas
+      </div>
+      <div
+        style="margin-bottom: 10px; background: #d62051; color: white; padding: 3px 15px 3px 15px; border-radius: 25px; font-size: 13px; width: fit-content;">
+        Sem esperas
+      </div>
+      <div
+        style="margin-bottom: 10px; background: #d62051; color: white; padding: 3px 15px 3px 15px; border-radius: 25px; font-size: 13px; width: fit-content;">
+        Especialistas Qualificados
+      </div>
+    </div>
+
+  </div>
 
 </body>
 
