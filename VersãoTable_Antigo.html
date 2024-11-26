@@ -1,123 +1,152 @@
-<div
-  style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 620px; max-width: 400px; width: 100%; background-color: #f5f5f5;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+</head>
+<body style="margin: 0;">
   <table cellspacing="0" cellpadding="0" border="0" align="center"
-    style="width: 400px; background: rgb(245, 245, 245); table-layout: auto; margin: 0;">
-    <tr>
-      <td>
-        <!-- Barra superior -->
-        <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; background-color: #d62051; height: 10px;">
-          <tr>
-            <td style="padding: 0;"></td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" style="padding: 0px; background-color: rgb(240, 240, 240);">
-        <!-- Conteúdo principal -->
-        <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; text-align: left;">
-          <tr> <!-- Texto azul -->
-            <td style="padding-left: 15px;">
-              <p
-                style="font-family: Montserrat, sans-serif; width: 152px; max-width: 152px; text-align: left; color: #737373; font-size: 15px; padding: 0; margin: 5px;">
-                <strong style="color: #0056b3; font-size: 18px;">Atendimento <br> rápido, resolutivo <br> e seguro<br>
-                  encaixado em <br> seu tempo e espaço!</strong>
-              </p>
-              <!-- Quadrado -->
-              <div
-                style="position: absolute; top: 20px; right: 0; width: 130px; height: 100px; border: 2px solid #000000;">
-                  <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/132.png" alt="mulhercommascara" style="height: 100%; width: 100%;">
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-left: 15px;">
-              <!-- Botões ROSAS -->
-              <div style="z-index: 2; width: 200px;">
-                <div class="button" style="max-width: 100px; background-color: #d62051; color: #ffffff; border-radius: 50px; padding: 5px;"><strong style="padding-left: 15px;"">Sem filas</strong></div>
-                <div style="height: 5px;"></div>
-                <div class="button" style="max-width: 120px; background-color: #d62051; color: #ffffff; border-radius: 50px; padding: 5px;"><strong style="padding-left: 15px;"">Sem esperas</strong></div>
-                <div style="height: 5px;"></div>
-                <div class="button" style="max-width: 200px; background-color: #d62051; color: #ffffff; border-radius: 50px; padding: 5px;"><strong style="padding-left: 7px;">Especialistas Qualificados</strong></div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-left: 15px;">
-              <p
-                style="font-family: Montserrat, sans-serif; width: 114px; max-width: 114px; text-align: left; color: #737373; font-size: 15px; padding: 0; margin: 5px;">
-                <strong style="color: #d62051; font-size: 18px;">Quer ter <br> acesso a <br> um desconto <br> exclusivo
-                  em <br> sua primeira <br> consulta?</strong>
-              </p>
-              <!-- Botão Azul -->
-              <a href="https://wa.me/556231426219?text=Ol%C3%A1%2C%20gostaria%20de%20receber%20informa%C3%A7%C3%B5es%20sobre%20o%20desconto%20mencionado%20no%20e-mail."
-                target="_blank" style="text-decoration: none;">
-               
-                <div style="z-index: 2; width: 228px;">
-                  <div class="button" style="max-width: 100%; background-color: #d62051; color: #ffffff; border-radius: 50px; padding: 5px;"><strong style="padding-left: 8px;">Clique aqui e descubra como!</strong></div>
-              </a>
-            </td>
-            <td style="padding-right: 0; width: 100px; height: 50px; border: 2px solid black;">
-            <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/134.jpg" alt="mulhercomcachorro" style="height: 100%; width: 100%;">
+  style="width: 100%; max-width: 400px; background: #ffffff; table-layout: fixed; margin: 0 auto;">
+  <tr>
+    <td>
+      <!-- Barra superior -->
+      <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; background-color: #d62051; height: 10px;">
+        <tr>
+          <td style="padding: 0;"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 0; background-color: #ffffff;">
+      <!-- Conteúdo principal -->
+      <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; text-align: left;">
+        <!-- Linha 1: Texto e Imagem 1 -->
+        <tr>
+          <td style="padding: 0; vertical-align: top; width: 60%;">
+            <p
+              style="font-family: Montserrat, sans-serif; color: #737373; font-size: 15px; margin: 0;">
+              <strong style="color: #0056b3; font-size: 18px;">
+                Atendimento <br> rápido, resolutivo <br> e seguro<br>
+                encaixado em <br> seu tempo e espaço!
+              </strong>
+            </p>
+          </td>
+          <td style="padding: 0; vertical-align: top; width: 40%; text-align: right;">
+            <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/132.png"
+              alt="mulhercommascara"
+              style="max-width: 100%; height: auto; object-fit: cover; display: block;">
           </td>
         </tr>
-        </table>
-      </td>
-    </tr>
-    <!-- Footer -->
-    <tr>
-      <td align="center" style="padding: 10px;">
-        <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; text-align: center;">
-          <tr>
-            <td>
-              <h5 style="margin: 10px; font-family: Montserrat, sans-serif; font-size: 17px;">Baixe o App do Dr+</h5>
-            </td>
-          </tr>
-          <tr>
-            <td style="text-align: center;">
-              <a href="https://drm.is/AppGoog" target="_blank">
-                <img alt="Google Play" src="https://api.drmais.com.br/public/pessoa_fisica_anexo/28.png"
-                  style="width: 130px; margin-right: 5px;">
-              </a>
-              <a href="https://drm.is/Appappl" target="_blank">
-                <img alt="App Store" src="https://api.drmais.com.br/public/pessoa_fisica_anexo/27.png"
-                  style="width: 130px;">
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h5 style="margin: 10px; font-family: Montserrat, sans-serif; font-size: 16px;">Siga nas redes sociais!
-              </h5>
-              <div style="text-align: center;">
-                <a href="https://www.facebook.com/DrMais.com.br/" target="_blank">
-                  <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/49.png" alt="Facebook"
-                    style="width: 30px; margin: 0 5px;">
-                </a>
-                <a href="https://www.instagram.com/drmais_online/" target="_blank">
-                  <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/50.png" alt="Instagram"
-                    style="width: 30px; margin: 0 5px;">
-                </a>
-                <a href="https://twitter.com/DrMais_com_br" target="_blank">
-                  <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/48.png" alt="Twitter"
-                    style="width: 30px; margin: 0 5px;">
-                </a>
-                <a href="https://www.tiktok.com/@drmaisonline" target="_blank">
-                  <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/51.png" alt="TikTok"
-                    style="width: 30px; margin: 0 5px;">
-                </a>
-                <a href="https://www.youtube.com/@drmais" target="_blank">
-                  <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/52.png" alt="YouTube"
-                    style="width: 30px; margin: 0 5px;">
-                </a>
+        <!-- Linha 2: Botões ROSAS e Imagem 2 -->
+        <tr>
+          <td style="padding: 15px; vertical-align: top; width: 60%;">
+            <!-- Botões ROSAS -->
+            <div style="width: 100%;">
+              <div class="button" style="width: 40%; background-color: #d62051; color: #ffffff; border-radius: 50px; padding: 10px; text-align: center; margin-bottom: 5px;">
+                <strong>Sem filas</strong>
               </div>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <tr>
-      <td style="width: 100%; height: 10px; background-color: #d62051;"></td>
-    </tr>
-  </table>
-</div>
+              <div class="button" style="width: 65%; background-color: #d62051; color: #ffffff; border-radius: 50px; padding: 10px; text-align: center; margin-bottom: 5px;">
+                <strong>Sem esperas</strong>
+              </div>
+              <div class="button" style="width: 100%; background-color: #d62051; color: #ffffff; border-radius: 50px; padding: 10px; text-align: center;">
+                <strong>Especialistas Qualificados</strong>
+              </div>
+            </div>
+          </td>
+          <td style="padding-top: 5px; vertical-align: top; width: 200px; text-align: right;">
+            <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/133.png"
+              alt="mulhercomgesso"
+              style="width: 100%; height: auto; object-fit: cover; display: block;">
+          </td>
+        </tr>
+        <!-- Linha 3: Texto e Imagem 3 -->
+        <tr>
+          <td style="padding: 0; vertical-align: top; width: 30%; border: 2px solid black;">
+            <p
+              style="font-family: Montserrat, sans-serif; color: #737373; font-size: 15px; margin: 0;">
+              <strong style="color: #d62051; font-size: 18px;">
+                Quer ter <br> acesso a <br> um desconto <br> exclusivo
+                em <br> sua primeira <br> consulta?
+              </strong>
+            </p>
+          </td>
+          <td style="padding: 0; vertical-align: top; width: 40%; text-align: right;">
+            <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/134.jpg"
+              alt="mulhercomcachorro"
+              style="max-width: 100%; height: auto; object-fit: cover; display: block;">
+          </td>
+        </tr>
+        <!-- Linha 4: Botão Azul -->
+        <tr>
+          <td colspan="2" style="padding: 5px; width: 200px;">
+            <a href="https://wa.me/556231426219?text=Ol%C3%A1%2C%20gostaria%20de%20receber%20informa%C3%A7%C3%B5es%20sobre%20o%20desconto%20mencionado%20no%20e-mail."
+              target="_blank" style="text-decoration: none; display: block;">
+              <div class="button" style="max-width: 100%; background-color: #0056b3; color: #ffffff; border-radius: 50px; padding: 10px; text-align: center;">
+                <strong>Clique aqui e descubra como!</strong>
+              </div>
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- Footer -->
+  <tr>
+    <td align="center" style="padding: 10px 15px 0 15px;">
+      <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; text-align: center;">
+        <tr>
+          <td>
+            <h5 style="margin: 10px 0; font-family: Montserrat, sans-serif; font-size: 17px;">Baixe o App do Dr+</h5>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">
+            <a href="https://drm.is/AppGoog" target="_blank">
+              <img alt="Google Play" src="https://api.drmais.com.br/public/pessoa_fisica_anexo/28.png"
+                style="width: 130px; margin-right: 5px; display: inline-block;">
+            </a>
+            <a href="https://drm.is/Appappl" target="_blank">
+              <img alt="App Store" src="https://api.drmais.com.br/public/pessoa_fisica_anexo/27.png"
+                style="width: 130px; display: inline-block;">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h5 style="margin: 10px 0; font-family: Montserrat, sans-serif; font-size: 16px;">Siga nas redes sociais!</h5>
+            <div style="text-align: center;">
+              <a href="https://www.facebook.com/DrMais.com.br/" target="_blank">
+                <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/49.png" alt="Facebook"
+                  style="width: 30px; margin: 0 5px; display: inline-block;">
+              </a>
+              <a href="https://www.instagram.com/drmais_online/" target="_blank">
+                <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/50.png" alt="Instagram"
+                  style="width: 30px; margin: 0 5px; display: inline-block;">
+              </a>
+              <a href="https://twitter.com/DrMais_com_br" target="_blank">
+                <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/48.png" alt="Twitter"
+                  style="width: 30px; margin: 0 5px; display: inline-block;">
+              </a>
+              <a href="https://www.tiktok.com/@drmaisonline" target="_blank">
+                <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/51.png" alt="TikTok"
+                  style="width: 30px; margin: 0 5px; display: inline-block;">
+              </a>
+              <a href="https://www.youtube.com/@drmais" target="_blank">
+                <img src="https://api.drmais.com.br/public/pessoa_fisica_anexo/52.png" alt="YouTube"
+                  style="width: 30px; margin: 0 5px; display: inline-block;">
+              </a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- Barra Inferior Rosa -->
+  <tr>
+    <td style="width: 100%; height: 10px; background-color: #d62051;"></td>
+  </tr>
+</table>
+</body>
+</html>
